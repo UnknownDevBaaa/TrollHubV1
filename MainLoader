@@ -1,0 +1,61 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+local win = DiscordLib:Window("Troll Hub V1")
+local serv = win:Server("Main", "")
+local btns = serv:Channel("R15 Scripts")
+
+btns:Button("Uzun boy troll", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UnknownDevBaaa/TrollHubV1/main/Tall", true))()
+DiscordLib:Notification("Notification", "Basarili!", "Tabi efendim!")
+end)
+
+btns:Seperator()
+
+btns:Button("Sex Gui", function()
+loadstring(game:HttpGet("https://github.com/UnknownDevBaaa/TrollHubV1/raw/main/Bang", true))()
+DiscordLib:Notification("Notification", "Basarili!", "Tabi efendim!")
+end)
+
+btns:Seperator()
+
+btns:Button("Click TP (r15-r6)", function()
+mouse = game.Players.LocalPlayer:GetMouse() tool = Instance.new("Tool") tool.RequiresHandle = false tool.Name = "Equip to Click TP" tool.Activated:connect(function() local pos = mouse.Hit+Vector3.new(0,2.5,0) pos = CFrame.new(pos.X,pos.Y,pos.Z) game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos end) tool.Parent = game.Players.LocalPlayer.Backpack
+DiscordLib:Notification("Notification", "Basarili!", "Tabi efendim!")
+end)
+
+btns:Seperator()
+
+local btns2 = serv:Channel("R6 Scripts")
+
+btns2:Button("Sex Gui", function()
+loadstring(game:HttpGet("https://github.com/UnknownDevBaaa/TrollHubV1/raw/main/Bang", true))()
+DiscordLib:Notification("Notification", "Basarili!", "Tabi efendim!")
+end)
+
+btns2:Seperator()
+
+
+btns2:Button("Click TP (r15-r6)", function()
+mouse = game.Players.LocalPlayer:GetMouse() tool = Instance.new("Tool") tool.RequiresHandle = false tool.Name = "Equip to Click TP" tool.Activated:connect(function() local pos = mouse.Hit+Vector3.new(0,2.5,0) pos = CFrame.new(pos.X,pos.Y,pos.Z) game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos end) tool.Parent = game.Players.LocalPlayer.Backpack
+DiscordLib:Notification("Notification", "Basarili!", "Tabi efendim!")
+end)
+
+btns2:Seperator()
+
+
+
+local btns3 = serv:Channel("Others")
+
+
+btns3:Button("Unlock FPS", function()
+loadstring(game:HttpGet("https://github.com/UnknownDevBaaa/TrollHubV1/raw/main/Fps"))()
+DiscordLib:Notification("Notification", "Basarili!", "Tabi efendim!")
+end)
+
+btns3:Seperator()
+
+btns3:Button("Infinite Yield", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+DiscordLib:Notification("Notification", "Basarili!", "Tabi efendim!")
+end)
+
+btns3:Seperator()
